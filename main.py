@@ -99,7 +99,7 @@ def get_start_position():
     x_ball_position, y_ball_position = x_ball_start_position, y_ball_start_position
     ball_speed = 3
     StartGameFlag = False
-    time.sleep(0.4)
+    time.sleep(0.45)
 
 
 while flagRunning:

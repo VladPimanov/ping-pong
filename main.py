@@ -87,6 +87,8 @@ ball_right = True
 ball_left = False
 
 StartGameFlag = False
+width_cef = height_cef = 1
+
 
 
 def get_start_position():
@@ -97,7 +99,7 @@ def get_start_position():
     x_first_position, y_first_position = x_first_start_position, y_first_start_position
     x_second_position, y_second_position = x_second_start_position, y_second_start_position
     x_ball_position, y_ball_position = x_ball_start_position, y_ball_start_position
-    ball_speed = 3
+    ball_speed = 3 * width_cef
     StartGameFlag = False
     time.sleep(0.4)
 
@@ -195,4 +197,7 @@ while flagRunning:
     pygame.display.update()
 
     clock.tick(FPS)
+
+if __name__ == '__main__':
+    pass
 

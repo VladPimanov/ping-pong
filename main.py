@@ -196,4 +196,3 @@ while flagRunning:
 
     clock.tick(FPS)
 
-print('continue')
